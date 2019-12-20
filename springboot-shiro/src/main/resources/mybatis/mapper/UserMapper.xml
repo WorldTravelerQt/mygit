@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 绑定一个对应的Dao/Mapper接口 -->
+<mapper namespace="com.scxh.springbootshiro.dao.UserMapper">
+    <!--
+        select查询语句
+        id:必须与接口方法对应！！
+        resultType：结果集封装类型
+     -->
+    <resultMap id="userMap" type="User">
+        <result column="uname" property="username"/>
+        <result column="pwd" property="password"/>
+    </resultMap>
+    <select id="findAll" resultMap="userMap">
+        select * from user;
+    </select>
+    <select id="findUserByName" resultMap="userMap">
+        select * from user where uname=#{username}
+    </select>
+</mapper>

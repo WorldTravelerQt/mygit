@@ -1,0 +1,579 @@
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10001,procId-36} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10002,procId-37} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10003,procId-38} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10004,procId-39} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005,procId-40} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [阿伟]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 7.7012 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 0.7476 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [1, 张三, 666, user:add,user:update]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : []
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 0.6061 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : []
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 0.3151 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50003} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50003} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50003} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 0.377 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50004} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50004} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50004} Result: [1, 张三, 666, user:add,user:update]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50004} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10001,procId-41} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10002,procId-42} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10003,procId-43} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10004,procId-44} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005,procId-45} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 7.2011 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, 张三, 666, user:add,user:update]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=1, username=张三, password=666, permission=user:add,user:update)]通过了认证
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 0.8214 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [1, 张三, 666, user:add,user:update]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=1, username=张三, password=666, permission=user:add,user:update)]通过了认证
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10001,procId-46} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10002,procId-47} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10003,procId-48} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10004,procId-49} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005,procId-50} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 7.9901 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, 张三, 666, user:add,user:update]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=1, username=张三, password=666, permission=user:add,user:update)]通过了认证
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10001} closed
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10002} closed
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10003} closed
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10004} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} closed
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} closed
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10001,procId-51} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10002,procId-52} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10003,procId-53} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10004,procId-54} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005,procId-55} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 6.3124 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, 张三, 666, user:add,user:update]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 1.3258 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [1, 张三, 666, user:add,user:update]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=1, username=张三, password=666, permission=user:add,user:update)]通过了认证
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10001,procId-56} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10002,procId-57} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10003,procId-58} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10004,procId-59} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005,procId-60} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 6.4546 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, 张三, 666, user:add,user:update]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=1, username=张三, password=666, permission=user:add,user:update)]通过了认证
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 0.4906 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [1, 张三, 666, user:add,user:update]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=1, username=张三, password=666, permission=user:add,user:update)]通过了认证
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 0.5788 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} Result: [1, 张三, 666, user:add,user:update]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=1, username=张三, password=666, permission=user:add,user:update)]通过了认证
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 0.4276 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50003} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50003} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50003} Result: [1, 张三, 666, user:add,user:update]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50003} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=1, username=张三, password=666, permission=user:add,user:update)]通过了认证
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 0.3764 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50004} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50004} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50004} Result: [1, 张三, 666, user:add,user:update]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50004} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=1, username=张三, password=666, permission=user:add,user:update)]通过了认证
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10001,procId-61} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10002,procId-62} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10003,procId-63} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10004,procId-64} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005,procId-65} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 7.036 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, 张三, 666, user:add,user:update]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=1, username=张三, password=666, permission=user:add,user:update)]通过了认证
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 0.9888 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [1, 张三, 666, user:add,user:update]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=1, username=张三, password=666, permission=user:add,user:update)]通过了认证
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10001,procId-66} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10002,procId-67} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10003,procId-68} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10004,procId-69} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005,procId-70} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : []
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 6.7506 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 1.0622 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [1, 张三, 666, user:add,user:update]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 0.3817 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} Result: [1, 张三, 666, user:add,user:update]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=1, username=张三, password=666, permission=user:add,user:update)]通过了认证
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户[User(uid=1, username=张三, password=666, permission=user:add,user:update)]注销了
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 0.4027 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50003} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50003} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50003} Result: [1, 张三, 666, user:add,user:update]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50003} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=1, username=张三, password=666, permission=user:add,user:update)]通过了认证
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户[null]注销了
+[DEBUG][19-12-12][freemarker.cache]Couldn't find template in cache for "index.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+[DEBUG][19-12-12][freemarker.cache]TemplateLoader.findTemplateSource("index_zh_CN.ftlh"): Not found
+[DEBUG][19-12-12][freemarker.cache]TemplateLoader.findTemplateSource("index_zh.ftlh"): Not found
+[DEBUG][19-12-12][freemarker.cache]TemplateLoader.findTemplateSource("index.ftlh"): Not found
+[DEBUG][19-12-12][freemarker.cache]Couldn't find template in cache for "error.ftlh"("zh_CN", UTF-8, parsed); will try to load it.
+[DEBUG][19-12-12][freemarker.cache]TemplateLoader.findTemplateSource("error_zh_CN.ftlh"): Not found
+[DEBUG][19-12-12][freemarker.cache]TemplateLoader.findTemplateSource("error_zh.ftlh"): Not found
+[DEBUG][19-12-12][freemarker.cache]TemplateLoader.findTemplateSource("error.ftlh"): Not found
+[DEBUG][19-12-12][freemarker.cache]TemplateLoader.findTemplateSource("index_zh_CN.ftlh"): Not found
+[DEBUG][19-12-12][freemarker.cache]TemplateLoader.findTemplateSource("index_zh.ftlh"): Not found
+[DEBUG][19-12-12][freemarker.cache]TemplateLoader.findTemplateSource("index.ftlh"): Not found
+[DEBUG][19-12-12][freemarker.cache]"index.ftlh"("zh_CN", UTF-8, parsed) no source found.
+[DEBUG][19-12-12][freemarker.cache]"index.ftlh"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG][19-12-12][freemarker.cache]TemplateLoader.findTemplateSource("error_zh_CN.ftlh"): Not found
+[DEBUG][19-12-12][freemarker.cache]TemplateLoader.findTemplateSource("error_zh.ftlh"): Not found
+[DEBUG][19-12-12][freemarker.cache]TemplateLoader.findTemplateSource("error.ftlh"): Not found
+[DEBUG][19-12-12][freemarker.cache]"error.ftlh"("zh_CN", UTF-8, parsed) no source found.
+[DEBUG][19-12-12][freemarker.cache]"index.ftlh"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG][19-12-12][freemarker.cache]"index.ftlh"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG][19-12-12][freemarker.cache]"error.ftlh"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10001,procId-71} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10002,procId-72} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10003,procId-73} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10004,procId-74} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005,procId-75} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 7.3255 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, 张三, 666, user:add,user:update]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=1, username=张三, password=666, permission=user:add,user:update)]通过了认证
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10001,procId-76} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10002,procId-77} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10003,procId-78} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10004,procId-79} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005,procId-80} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 7.0796 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, 张三, 666, user:add,user:update]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=1, username=张三, password=666, permission=user:add,user:update)]通过了认证
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户[User(uid=1, username=张三, password=666, permission=user:add,user:update)]注销了
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10001,procId-81} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10002,procId-82} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10003,procId-83} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10004,procId-84} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005,procId-85} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 6.3475 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, 张三, 666, user:add,user:update]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=1, username=张三, password=666, permission=user:add,user:update)]通过了认证
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户[User(uid=1, username=张三, password=666, permission=user:add,user:update)]注销了
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10001,procId-86} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10002,procId-87} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10003,procId-88} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10004,procId-89} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005,procId-90} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 6.666 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, 张三, 666, user:add,user:update]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=1, username=张三, password=666, permission=user:add,user:update)]通过了认证
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户[User(uid=1, username=张三, password=666, permission=user:add,user:update)]注销了
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 0.9922 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [1, 张三, 666, user:add,user:update]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=1, username=张三, password=666, permission=user:add,user:update)]通过了认证
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10001,procId-91} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10002,procId-92} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10003,procId-93} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10004,procId-94} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005,procId-95} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 6.7787 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, 张三, 666, user:add,user:update]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=1, username=张三, password=666, permission=user:add,user:update)]通过了认证
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10001,procId-96} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10002,procId-97} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10003,procId-98} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10004,procId-99} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005,procId-100} connected
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 6.7499 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, 张三, 666, user:add,user:update]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=1, username=张三, password=666, permission=user:add,user:update)]通过了认证
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户[User(uid=1, username=张三, password=666, permission=user:add,user:update)]注销了
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [小熊猫]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 1.2132 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [3, 小熊猫, 222, null]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=3, username=小熊猫, password=222, permission=null)]通过了认证
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户[User(uid=3, username=小熊猫, password=222, permission=null)]注销了
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 0.5512 millis. select * from user where uname=?
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} open
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} Result: [1, 张三, 666, user:add,user:update]
+[DEBUG][19-12-12][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} closed
+[DEBUG][19-12-12][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-12][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-12][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=1, username=张三, password=666, permission=user:add,user:update)]通过了认证
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10001,procId-54} connected
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10002,procId-55} connected
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10003,procId-56} connected
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10004,procId-57} connected
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10005,procId-58} connected
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10005} setAutoCommit false
+[DEBUG][19-12-16][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from user where uname=?
+[DEBUG][19-12-16][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-16][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-16][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 7.1515 millis. select * from user where uname=?
+[DEBUG][19-12-16][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][19-12-16][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-16][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, 张三, 666, user:add,user:update]
+[DEBUG][19-12-16][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][19-12-16][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10005} commited
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10005} setAutoCommit true
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-16][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=1, username=张三, password=666, permission=user:add,user:update)]通过了认证
+[INFO][19-12-16][com.scxh.springbootshiro.controller.MyController]用户[User(uid=1, username=张三, password=666, permission=user:add,user:update)]注销了
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10005} setAutoCommit false
+[DEBUG][19-12-16][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [李武]
+[DEBUG][19-12-16][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-16][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 0.53 millis. select * from user where uname=?
+[DEBUG][19-12-16][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} open
+[DEBUG][19-12-16][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-16][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [4, 李武, 333, null]
+[DEBUG][19-12-16][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} closed
+[DEBUG][19-12-16][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10005} commited
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10005} setAutoCommit true
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-16][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=4, username=李武, password=333, permission=null)]通过了认证
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10001,procId-60} connected
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10002,procId-61} connected
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10003,procId-62} connected
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10004,procId-63} connected
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10005,procId-64} connected
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10005} setAutoCommit false
+[DEBUG][19-12-16][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from user where uname=?
+[DEBUG][19-12-16][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-16][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-16][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 25.3738 millis. select * from user where uname=?
+[DEBUG][19-12-16][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][19-12-16][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-16][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, 张三, 666, user:add,user:update]
+[DEBUG][19-12-16][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][19-12-16][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10005} commited
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10005} setAutoCommit true
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-16][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=1, username=张三, password=666, permission=user:add,user:update)]通过了认证
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10001} closed
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10002} closed
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10003} closed
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10004} closed
+[DEBUG][19-12-16][druid.sql.Statement]{conn-10005, pstmt-20000} closed
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10005} closed
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10001,procId-123} connected
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10002,procId-124} connected
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10003,procId-125} connected
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10004,procId-126} connected
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10005,procId-127} connected
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10005} setAutoCommit false
+[DEBUG][19-12-16][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from user where uname=?
+[DEBUG][19-12-16][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-16][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-16][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 7.8647 millis. select * from user where uname=?
+[DEBUG][19-12-16][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][19-12-16][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-16][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, 张三, 666, user:add,user:update]
+[DEBUG][19-12-16][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][19-12-16][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10005} commited
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10005} setAutoCommit true
+[DEBUG][19-12-16][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10001,procId-4} connected
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10002,procId-5} connected
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10003,procId-6} connected
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10004,procId-7} connected
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10005,procId-8} connected
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10005} setAutoCommit false
+[DEBUG][19-12-17][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from user where uname=?
+[DEBUG][19-12-17][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-17][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-17][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 52.3092 millis. select * from user where uname=?
+[DEBUG][19-12-17][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][19-12-17][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-17][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, 张三, 666, user:add]
+[DEBUG][19-12-17][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][19-12-17][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10005} commited
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10005} setAutoCommit true
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-17][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=1, username=张三, password=666, permission=user:add)]通过了认证
+[INFO][19-12-17][com.scxh.springbootshiro.controller.MyController]用户[User(uid=1, username=张三, password=666, permission=user:add)]注销了
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10005} setAutoCommit false
+[DEBUG][19-12-17][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [admin]
+[DEBUG][19-12-17][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-17][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 1.5772 millis. select * from user where uname=?
+[DEBUG][19-12-17][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} open
+[DEBUG][19-12-17][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-17][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} Result: [2, admin, 123, user:*]
+[DEBUG][19-12-17][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50001} closed
+[DEBUG][19-12-17][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10005} commited
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10005} setAutoCommit true
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-17][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=2, username=admin, password=123, permission=user:*)]通过了认证
+[INFO][19-12-17][com.scxh.springbootshiro.controller.MyController]用户[User(uid=2, username=admin, password=123, permission=user:*)]注销了
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10005} setAutoCommit false
+[DEBUG][19-12-17][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-17][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-17][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 0.6655 millis. select * from user where uname=?
+[DEBUG][19-12-17][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} open
+[DEBUG][19-12-17][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-17][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} Result: [1, 张三, 666, user:add]
+[DEBUG][19-12-17][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50002} closed
+[DEBUG][19-12-17][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10005} commited
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10005} setAutoCommit true
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-17][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=1, username=张三, password=666, permission=user:add)]通过了认证
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10001,procId-9} connected
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10002,procId-10} connected
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10003,procId-11} connected
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10004,procId-12} connected
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10005,procId-13} connected
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10005} setAutoCommit false
+[DEBUG][19-12-17][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from user where uname=?
+[DEBUG][19-12-17][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [张三]
+[DEBUG][19-12-17][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [VARCHAR]
+[DEBUG][19-12-17][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 21.8207 millis. select * from user where uname=?
+[DEBUG][19-12-17][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][19-12-17][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [uid, uname, pwd, permission]
+[DEBUG][19-12-17][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, 张三, 666, user:add]
+[DEBUG][19-12-17][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][19-12-17][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10005} commited
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10005} setAutoCommit true
+[DEBUG][19-12-17][druid.sql.Connection]{conn-10005} pool-recycle
+[INFO][19-12-17][com.scxh.springbootshiro.controller.MyController]用户：[User(uid=1, username=张三, password=666, permission=user:add)]通过了认证

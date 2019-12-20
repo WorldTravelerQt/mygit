@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:shiro="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <link th:href="@{css/bootstrap.css}" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+
+        <div class="col-md-12">
+            <div class="page-header">
+                <h1><small>首页,[[${session.loginUser!=null?session.sayHello:'hello shiro'}]]</small></h1>
+                <a th:class="${session.loginUser!=null?'glyphicon glyphicon-log-out':'glyphicon glyphicon-log-in'}"
+                   th:href="${session.loginUser!=null?'logout':'toLogin'}"
+                   th:text="${session.loginUser!=null?'注销':'登录'}"></a>
+            </div>
+
+            <a class="btn btn-primary" shiro:haspermission="user:add" th:href="@{user/add}">添加</a>
+            <a class="btn btn-primary" shiro:haspermission="user:update" th:href="@{user/update}">更新</a>
+        </div>
+
+    </div>
+</body>
+</html>
